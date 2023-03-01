@@ -1,2 +1,2 @@
-SELECT FirstName, LastName, CustomerId, Country FROM Customer
+SELECT FirstName || ' ' || LastName AS FullName, CustomerId, Country FROM Customer
 WHERE Country NOT LIKE "USA"
