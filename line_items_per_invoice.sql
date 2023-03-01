@@ -1,3 +1,3 @@
 SELECT COUNT(*), InvoiceId
 FROM InvoiceLine
-WHERE InvoiceId = 37
+GROUP BY InvoiceId
