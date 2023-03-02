@@ -9,3 +9,4 @@ JOIN Invoice AS i
 ON l.InvoiceId = i.InvoiceId
 GROUP BY m.MediaTypeId
 ORDER BY TotalPurchases DESC
+LIMIT 1
